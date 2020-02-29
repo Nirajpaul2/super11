@@ -1,0 +1,6 @@
+framework module Pods_GoSuper11 {
+  umbrella header "Pods-GoSuper11-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1170 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EFACF5DF980967426899F4A /* Pods_GoSuper11UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD36786F5918370DAD9F3F3A /* Pods_GoSuper11UITests.framework */; };
+		3B7753BEFA584201D64DE688 /* Pods_GoSuper11Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278E877B70489901D53B8BFD /* Pods_GoSuper11Tests.framework */; };
+		4F9FDF1779BE5F37C9314E56 /* Pods_GoSuper11.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1985CCBFFAE67167D935640 /* Pods_GoSuper11.framework */; };
+		6B0052E4213BFDF5009AE4FC /* ChooseCaptainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0052E3213BFDF5009AE4FC /* ChooseCaptainViewController.swift */; };
+		6B0052E6213C021C009AE4FC /* ChooseCaptainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0052E5213C021C009AE4FC /* ChooseCaptainTableViewCell.swift */; };
+		6B09620421293318002262C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B09620321293318002262C3 /* GoogleService-Info.plist */; };
+		6B096206212933F9002262C3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B096205212933F9002262C3 /* StoreKit.framework */; };
+		6B09620821293406002262C3 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B09620721293406002262C3 /* AddressBook.framework */; };
+		6B09620A2129340D002262C3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B0962092129340D002262C3 /* SystemConfiguration.framework */; };
+		6B09620C21294361002262C3 /* PageDetailBO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09620B21294361002262C3 /* PageDetailBO.swift */; };
+		6B88D8E52142F6D500D44A84 /* JoinContestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88D8E42142F6D500D44A84 /* JoinContestViewController.swift */; };
+		6B88D8E72142FDDB00D44A84 /* JoinContestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88D8E62142FDDB00D44A84 /* JoinContestTableViewCell.swift */; };
+		6B88D8E92142FDFA00D44A84 /* PlayWithFriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88D8E82142FDFA00D44A84 /* PlayWithFriendsTableViewCell.swift */; };
+		6B8DC2752137161300A565CC /* MatchListBO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DC2742137161300A565CC /* MatchListBO.swift */; };
+		6B9229BF21499377001C1860 /* MyTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9229BE21499377001C1860 /* MyTeamViewController.swift */; };
+		6B93DDC1214E6AAA0047FE1A /* WinnerBreakUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B93DDC0214E6AAA0047FE1A /* WinnerBreakUpTableViewCell.swift */; };
+		6B93F4FA214037D500F6BFD9 /* greybar.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F4E5214037D200F6BFD9 /* greybar.PNG */; };
+		6B93F4FB214037D500F6BFD9 /* IMG_7435.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F4E6214037D200F6BFD9 /* IMG_7435.PNG */; };
+		6B93F4FC214037D500F6BFD9 /* bowl.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F4E7214037D200F6BFD9 /* bowl.PNG */; };
+		6B93F4FD214037D500F6BFD9 /* wkt.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F4E8214037D200F6BFD9 /* wkt.PNG */; };
+		6B93F4FE214037D500F6BFD9 /* badge.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F4E9214037D200F6BFD9 /* badge.PNG */; };
+		6B93F4FF214037D500F6BFD9 /* badge(1).PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F4EA214037D300F6BFD9 /* badge(1).PNG */; };
+		6B93F500214037D500F6BFD9 /* bowl2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F4EB214037D300F6BFD9 /* bowl2.PNG */; };
+		6B93F501214037D500F6BFD9 /* success.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F4EC214037D300F6BFD9 /* success.PNG */; };
+		6B93F502214037D500F6BFD9 /* cricket-player.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F4ED214037D300F6BFD9 /* cricket-player.PNG */; };
+		6B93F503214037D500F6BFD9 /* hourglass.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F4EE214037D300F6BFD9 /* hourglass.PNG */; };
+		6B93F504214037D500F6BFD9 /* ar2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F4EF214037D300F6BFD9 /* ar2.PNG */; };
+		6B93F505214037D500F6BFD9 /* IMG_7625.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F4F0214037D300F6BFD9 /* IMG_7625.JPG */; };
+		6B93F506214037D500F6BFD9 /* bat2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F4F1214037D400F6BFD9 /* bat2.PNG */; };
+		6B93F507214037D500F6BFD9 /* greenbar.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F4F2214037D400F6BFD9 /* greenbar.PNG */; };
+		6B93F508214037D500F6BFD9 /* bowl1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F4F3214037D400F6BFD9 /* bowl1.PNG */; };
+		6B93F509214037D500F6BFD9 /* IMG_7436.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F4F4214037D400F6BFD9 /* IMG_7436.PNG */; };
+		6B93F50A214037D500F6BFD9 /* IMG_7624.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F4F5214037D400F6BFD9 /* IMG_7624.PNG */; };
+		6B93F50B214037D500F6BFD9 /* wk1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F4F6214037D400F6BFD9 /* wk1.PNG */; };
+		6B93F50C214037D500F6BFD9 /* ar1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F4F7214037D500F6BFD9 /* ar1.PNG */; };
+		6B93F50D214037D500F6BFD9 /* bat1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F4F8214037D500F6BFD9 /* bat1.PNG */; };
+		6B93F50E214037D500F6BFD9 /* bat.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F4F9214037D500F6BFD9 /* bat.PNG */; };
+		6B93F51021403A4F00F6BFD9 /* ar.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F50F21403A4E00F6BFD9 /* ar.PNG */; };
+		6B93F5122140437800F6BFD9 /* MatchPreViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B93F5112140437800F6BFD9 /* MatchPreViewView.swift */; };
+		6B93F5142140438300F6BFD9 /* MatchPreViewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F5132140438300F6BFD9 /* MatchPreViewView.xib */; };
+		6B93F5172140466400F6BFD9 /* SelectedPlayerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B93F5152140466400F6BFD9 /* SelectedPlayerCollectionViewCell.swift */; };
+		6B93F5182140466400F6BFD9 /* SelectedPlayerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F5162140466400F6BFD9 /* SelectedPlayerCollectionViewCell.xib */; };
+		6B93F51A2140560D00F6BFD9 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F5192140560D00F6BFD9 /* close.png */; };
+		6B93F51C21405CFC00F6BFD9 /* pitch.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F51B21405CFC00F6BFD9 /* pitch.JPG */; };
+		6B93F51E2140641600F6BFD9 /* upwards-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F51D2140641500F6BFD9 /* upwards-arrow.png */; };
+		6B93F520214065B000F6BFD9 /* greybar_new.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F51F214065AF00F6BFD9 /* greybar_new.png */; };
+		6B93F52221406EF700F6BFD9 /* greenbar_new.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B93F52121406EF600F6BFD9 /* greenbar_new.png */; };
+		6B94E36E214C2585001C34BD /* MyTeamListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94E36D214C2585001C34BD /* MyTeamListTableViewCell.swift */; };
+		6B9A4B17213D01F600B3811C /* Segoe_UI_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B9A4B16213D01F400B3811C /* Segoe_UI_Italic.ttf */; };
+		6B9A4B19213D020700B3811C /* Segoe UI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B9A4B18213D020300B3811C /* Segoe UI.ttf */; };
+		6B9A4B1B213D021500B3811C /* seguibl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B9A4B1A213D021300B3811C /* seguibl.ttf */; };
+		6B9A4B1D213D022500B3811C /* SEGOEUI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 6B9A4B1C213D022300B3811C /* SEGOEUI.TTF */; };
+		6B9A4B1F213D023000B3811C /* seguisb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B9A4B1E213D022E00B3811C /* seguisb.ttf */; };
+		6B9DC8FD21280CB000C77FED /* AnnoyingNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9DC8FB21280CB000C77FED /* AnnoyingNotification.swift */; };
+		6B9DC8FE21280CB000C77FED /* AnnoyingNotification.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B9DC8FC21280CB000C77FED /* AnnoyingNotification.xib */; };
+		6B9DC90121282F5700C77FED /* WebResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9DC8FF21282F5600C77FED /* WebResponseParser.swift */; };
+		6B9DC90221282F5700C77FED /* APIManeger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9DC90021282F5600C77FED /* APIManeger.swift */; };
+		6B9DF37E214D5EBB0003BCBE /* MyTeamListBO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9DF37D214D5EBB0003BCBE /* MyTeamListBO.swift */; };
+		6BA21119213ADC8B00D86918 /* PlayerDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA21118213ADC8B00D86918 /* PlayerDetailsTableViewCell.swift */; };
+		6BA2111B213AE96C00D86918 /* PlayerDetailBO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA2111A213AE96C00D86918 /* PlayerDetailBO.swift */; };
+		6BA4D6752125D60A001B40E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4D6742125D60A001B40E9 /* AppDelegate.swift */; };
+		6BA4D6772125D60A001B40E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4D6762125D60A001B40E9 /* ViewController.swift */; };
+		6BA4D67A2125D60A001B40E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BA4D6782125D60A001B40E9 /* Main.storyboard */; };
+		6BA4D67D2125D60A001B40E9 /* GoSuper11.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4D67B2125D60A001B40E9 /* GoSuper11.xcdatamodeld */; };
+		6BA4D67F2125D60B001B40E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BA4D67E2125D60B001B40E9 /* Assets.xcassets */; };
+		6BA4D6822125D60B001B40E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BA4D6802125D60B001B40E9 /* LaunchScreen.storyboard */; };
+		6BA4D68D2125D60C001B40E9 /* GoSuper11Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4D68C2125D60C001B40E9 /* GoSuper11Tests.swift */; };
+		6BA4D6982125D60C001B40E9 /* GoSuper11UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4D6972125D60C001B40E9 /* GoSuper11UITests.swift */; };
+		6BA4D6B12125EB0C001B40E9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4D6B02125EB0C001B40E9 /* HomeViewController.swift */; };
+		6BA4D6B32125EEDA001B40E9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4D6B22125EEDA001B40E9 /* LoginViewController.swift */; };
+		6BA4D6B62125F886001B40E9 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4D6B42125F886001B40E9 /* Constant.swift */; };
+		6BA4D6B72125F886001B40E9 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4D6B52125F886001B40E9 /* AppConstant.swift */; };
+		6BA868102138657B00609368 /* CreateTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA8680F2138657B00609368 /* CreateTeamViewController.swift */; };
+		6BAA62802135B93300D872C1 /* MatchBannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAA627F2135B93300D872C1 /* MatchBannerCollectionViewCell.swift */; };
+		6BAA62822135BCD600D872C1 /* PopUpWithTextFiled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAA62812135BCD600D872C1 /* PopUpWithTextFiled.swift */; };
+		6BAA62842135BCE200D872C1 /* PopUpWithTextFiled.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BAA62832135BCE200D872C1 /* PopUpWithTextFiled.xib */; };
+		6BB594F5212C819200445341 /* CricketMatchStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB594F4212C819200445341 /* CricketMatchStatusViewController.swift */; };
+		6BB594F7212C845700445341 /* MatchListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB594F6212C845700445341 /* MatchListTableViewCell.swift */; };
+		6BEB545B213BC7DC00EF72FE /* TeamPreViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB545A213BC7DC00EF72FE /* TeamPreViewViewController.swift */; };
+		6BEB545D213BD1D100EF72FE /* PlayerDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB545C213BD1D100EF72FE /* PlayerDetailCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BA4D6892125D60C001B40E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BA4D6692125D60A001B40E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BA4D6702125D60A001B40E9;
+			remoteInfo = GoSuper11;
+		};
+		6BA4D6942125D60C001B40E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BA4D6692125D60A001B40E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BA4D6702125D60A001B40E9;
+			remoteInfo = GoSuper11;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		211E74C222F11E8AA7505BB4 /* Pods-GoSuper11.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoSuper11.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoSuper11/Pods-GoSuper11.debug.xcconfig"; sourceTree = "<group>"; };
+		278E877B70489901D53B8BFD /* Pods_GoSuper11Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoSuper11Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0052E3213BFDF5009AE4FC /* ChooseCaptainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCaptainViewController.swift; sourceTree = "<group>"; };
+		6B0052E5213C021C009AE4FC /* ChooseCaptainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCaptainTableViewCell.swift; sourceTree = "<group>"; };
+		6B09620321293318002262C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6B096205212933F9002262C3 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		6B09620721293406002262C3 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		6B0962092129340D002262C3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6B09620B21294361002262C3 /* PageDetailBO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageDetailBO.swift; sourceTree = "<group>"; };
+		6B88D8E42142F6D500D44A84 /* JoinContestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinContestViewController.swift; sourceTree = "<group>"; };
+		6B88D8E62142FDDB00D44A84 /* JoinContestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinContestTableViewCell.swift; sourceTree = "<group>"; };
+		6B88D8E82142FDFA00D44A84 /* PlayWithFriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWithFriendsTableViewCell.swift; sourceTree = "<group>"; };
+		6B8DC2742137161300A565CC /* MatchListBO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchListBO.swift; sourceTree = "<group>"; };
+		6B9229BE21499377001C1860 /* MyTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTeamViewController.swift; sourceTree = "<group>"; };
+		6B93DDC0214E6AAA0047FE1A /* WinnerBreakUpTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerBreakUpTableViewCell.swift; sourceTree = "<group>"; };
+		6B93F4E5214037D200F6BFD9 /* greybar.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greybar.PNG; sourceTree = "<group>"; };
+		6B93F4E6214037D200F6BFD9 /* IMG_7435.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_7435.PNG; sourceTree = "<group>"; };
+		6B93F4E7214037D200F6BFD9 /* bowl.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bowl.PNG; sourceTree = "<group>"; };
+		6B93F4E8214037D200F6BFD9 /* wkt.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wkt.PNG; sourceTree = "<group>"; };
+		6B93F4E9214037D200F6BFD9 /* badge.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badge.PNG; sourceTree = "<group>"; };
+		6B93F4EA214037D300F6BFD9 /* badge(1).PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "badge(1).PNG"; sourceTree = "<group>"; };
+		6B93F4EB214037D300F6BFD9 /* bowl2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bowl2.PNG; sourceTree = "<group>"; };
+		6B93F4EC214037D300F6BFD9 /* success.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.PNG; sourceTree = "<group>"; };
+		6B93F4ED214037D300F6BFD9 /* cricket-player.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cricket-player.PNG"; sourceTree = "<group>"; };
+		6B93F4EE214037D300F6BFD9 /* hourglass.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hourglass.PNG; sourceTree = "<group>"; };
+		6B93F4EF214037D300F6BFD9 /* ar2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ar2.PNG; sourceTree = "<group>"; };
+		6B93F4F0214037D300F6BFD9 /* IMG_7625.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_7625.JPG; sourceTree = "<group>"; };
+		6B93F4F1214037D400F6BFD9 /* bat2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bat2.PNG; sourceTree = "<group>"; };
+		6B93F4F2214037D400F6BFD9 /* greenbar.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenbar.PNG; sourceTree = "<group>"; };
+		6B93F4F3214037D400F6BFD9 /* bowl1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bowl1.PNG; sourceTree = "<group>"; };
+		6B93F4F4214037D400F6BFD9 /* IMG_7436.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_7436.PNG; sourceTree = "<group>"; };
+		6B93F4F5214037D400F6BFD9 /* IMG_7624.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_7624.PNG; sourceTree = "<group>"; };
+		6B93F4F6214037D400F6BFD9 /* wk1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wk1.PNG; sourceTree = "<group>"; };
+		6B93F4F7214037D500F6BFD9 /* ar1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ar1.PNG; sourceTree = "<group>"; };
+		6B93F4F8214037D500F6BFD9 /* bat1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bat1.PNG; sourceTree = "<group>"; };
+		6B93F4F9214037D500F6BFD9 /* bat.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bat.PNG; sourceTree = "<group>"; };
+		6B93F50F21403A4E00F6BFD9 /* ar.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ar.PNG; sourceTree = "<group>"; };
+		6B93F5112140437800F6BFD9 /* MatchPreViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchPreViewView.swift; sourceTree = "<group>"; };
+		6B93F5132140438300F6BFD9 /* MatchPreViewView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MatchPreViewView.xib; sourceTree = "<group>"; };
+		6B93F5152140466400F6BFD9 /* SelectedPlayerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedPlayerCollectionViewCell.swift; sourceTree = "<group>"; };
+		6B93F5162140466400F6BFD9 /* SelectedPlayerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectedPlayerCollectionViewCell.xib; sourceTree = "<group>"; };
+		6B93F5192140560D00F6BFD9 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		6B93F51B21405CFC00F6BFD9 /* pitch.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pitch.JPG; sourceTree = "<group>"; };
+		6B93F51D2140641500F6BFD9 /* upwards-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upwards-arrow.png"; sourceTree = "<group>"; };
+		6B93F51F214065AF00F6BFD9 /* greybar_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greybar_new.png; sourceTree = "<group>"; };
+		6B93F52121406EF600F6BFD9 /* greenbar_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenbar_new.png; sourceTree = "<group>"; };
+		6B94E36D214C2585001C34BD /* MyTeamListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTeamListTableViewCell.swift; sourceTree = "<group>"; };
+		6B9A4B16213D01F400B3811C /* Segoe_UI_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Segoe_UI_Italic.ttf; sourceTree = "<group>"; };
+		6B9A4B18213D020300B3811C /* Segoe UI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe UI.ttf"; sourceTree = "<group>"; };
+		6B9A4B1A213D021300B3811C /* seguibl.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = seguibl.ttf; sourceTree = "<group>"; };
+		6B9A4B1C213D022300B3811C /* SEGOEUI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SEGOEUI.TTF; sourceTree = "<group>"; };
+		6B9A4B1E213D022E00B3811C /* seguisb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = seguisb.ttf; sourceTree = "<group>"; };
+		6B9DC8FB21280CB000C77FED /* AnnoyingNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnoyingNotification.swift; sourceTree = "<group>"; };
+		6B9DC8FC21280CB000C77FED /* AnnoyingNotification.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnnoyingNotification.xib; sourceTree = "<group>"; };
+		6B9DC8FF21282F5600C77FED /* WebResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebResponseParser.swift; sourceTree = "<group>"; };
+		6B9DC90021282F5600C77FED /* APIManeger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManeger.swift; sourceTree = "<group>"; };
+		6B9DF37D214D5EBB0003BCBE /* MyTeamListBO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTeamListBO.swift; sourceTree = "<group>"; };
+		6BA21118213ADC8B00D86918 /* PlayerDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		6BA2111A213AE96C00D86918 /* PlayerDetailBO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailBO.swift; sourceTree = "<group>"; };
+		6BA4D6712125D60A001B40E9 /* Super11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Super11.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA4D6742125D60A001B40E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BA4D6762125D60A001B40E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6BA4D6792125D60A001B40E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BA4D67C2125D60A001B40E9 /* GoSuper11.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoSuper11.xcdatamodel; sourceTree = "<group>"; };
+		6BA4D67E2125D60B001B40E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BA4D6812125D60B001B40E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BA4D6832125D60B001B40E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BA4D6882125D60C001B40E9 /* Super11Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Super11Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA4D68C2125D60C001B40E9 /* GoSuper11Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoSuper11Tests.swift; sourceTree = "<group>"; };
+		6BA4D68E2125D60C001B40E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BA4D6932125D60C001B40E9 /* Super11UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Super11UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA4D6972125D60C001B40E9 /* GoSuper11UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoSuper11UITests.swift; sourceTree = "<group>"; };
+		6BA4D6992125D60C001B40E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BA4D6B02125EB0C001B40E9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6BA4D6B22125EEDA001B40E9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6BA4D6B42125F886001B40E9 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		6BA4D6B52125F886001B40E9 /* AppConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		6BA8680F2138657B00609368 /* CreateTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTeamViewController.swift; sourceTree = "<group>"; };
+		6BAA627F2135B93300D872C1 /* MatchBannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchBannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		6BAA62812135BCD600D872C1 /* PopUpWithTextFiled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpWithTextFiled.swift; sourceTree = "<group>"; };
+		6BAA62832135BCE200D872C1 /* PopUpWithTextFiled.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopUpWithTextFiled.xib; sourceTree = "<group>"; };
+		6BB594F4212C819200445341 /* CricketMatchStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricketMatchStatusViewController.swift; sourceTree = "<group>"; };
+		6BB594F6212C845700445341 /* MatchListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchListTableViewCell.swift; sourceTree = "<group>"; };
+		6BEB545A213BC7DC00EF72FE /* TeamPreViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamPreViewViewController.swift; sourceTree = "<group>"; };
+		6BEB545C213BD1D100EF72FE /* PlayerDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		7786D2BFBB90CED67E2036AB /* Pods-GoSuper11Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoSuper11Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoSuper11Tests/Pods-GoSuper11Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD36786F5918370DAD9F3F3A /* Pods_GoSuper11UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoSuper11UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1985CCBFFAE67167D935640 /* Pods_GoSuper11.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoSuper11.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF834966455F2C7B74DFCDD2 /* Pods-GoSuper11.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoSuper11.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoSuper11/Pods-GoSuper11.release.xcconfig"; sourceTree = "<group>"; };
+		F44E607244AC3AD15B5B8292 /* Pods-GoSuper11Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoSuper11Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoSuper11Tests/Pods-GoSuper11Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F91D60E14C21F7D49992BDBD /* Pods-GoSuper11UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoSuper11UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoSuper11UITests/Pods-GoSuper11UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA466B099083AC4AF5532D36 /* Pods-GoSuper11UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoSuper11UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoSuper11UITests/Pods-GoSuper11UITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BA4D66E2125D60A001B40E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B09620A2129340D002262C3 /* SystemConfiguration.framework in Frameworks */,
+				6B09620821293406002262C3 /* AddressBook.framework in Frameworks */,
+				6B096206212933F9002262C3 /* StoreKit.framework in Frameworks */,
+				4F9FDF1779BE5F37C9314E56 /* Pods_GoSuper11.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA4D6852125D60C001B40E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7753BEFA584201D64DE688 /* Pods_GoSuper11Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA4D6902125D60C001B40E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFACF5DF980967426899F4A /* Pods_GoSuper11UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		398B798D94EFCAA33E6BA03D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				211E74C222F11E8AA7505BB4 /* Pods-GoSuper11.debug.xcconfig */,
+				EF834966455F2C7B74DFCDD2 /* Pods-GoSuper11.release.xcconfig */,
+				7786D2BFBB90CED67E2036AB /* Pods-GoSuper11Tests.debug.xcconfig */,
+				F44E607244AC3AD15B5B8292 /* Pods-GoSuper11Tests.release.xcconfig */,
+				F91D60E14C21F7D49992BDBD /* Pods-GoSuper11UITests.debug.xcconfig */,
+				FA466B099083AC4AF5532D36 /* Pods-GoSuper11UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B93F4E4214037BE00F6BFD9 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				6B93F51D2140641500F6BFD9 /* upwards-arrow.png */,
+				6B93F50F21403A4E00F6BFD9 /* ar.PNG */,
+				6B93F4F7214037D500F6BFD9 /* ar1.PNG */,
+				6B93F4EF214037D300F6BFD9 /* ar2.PNG */,
+				6B93F4E9214037D200F6BFD9 /* badge.PNG */,
+				6B93F4EA214037D300F6BFD9 /* badge(1).PNG */,
+				6B93F4F9214037D500F6BFD9 /* bat.PNG */,
+				6B93F4F8214037D500F6BFD9 /* bat1.PNG */,
+				6B93F4F1214037D400F6BFD9 /* bat2.PNG */,
+				6B93F4E7214037D200F6BFD9 /* bowl.PNG */,
+				6B93F4F3214037D400F6BFD9 /* bowl1.PNG */,
+				6B93F4EB214037D300F6BFD9 /* bowl2.PNG */,
+				6B93F4ED214037D300F6BFD9 /* cricket-player.PNG */,
+				6B93F4F2214037D400F6BFD9 /* greenbar.PNG */,
+				6B93F4E5214037D200F6BFD9 /* greybar.PNG */,
+				6B93F4EE214037D300F6BFD9 /* hourglass.PNG */,
+				6B93F4E6214037D200F6BFD9 /* IMG_7435.PNG */,
+				6B93F4F4214037D400F6BFD9 /* IMG_7436.PNG */,
+				6B93F4F5214037D400F6BFD9 /* IMG_7624.PNG */,
+				6B93F4F0214037D300F6BFD9 /* IMG_7625.JPG */,
+				6B93F4EC214037D300F6BFD9 /* success.PNG */,
+				6B93F4F6214037D400F6BFD9 /* wk1.PNG */,
+				6B93F4E8214037D200F6BFD9 /* wkt.PNG */,
+				6B93F5192140560D00F6BFD9 /* close.png */,
+				6B93F51B21405CFC00F6BFD9 /* pitch.JPG */,
+				6B93F51F214065AF00F6BFD9 /* greybar_new.png */,
+				6B93F52121406EF600F6BFD9 /* greenbar_new.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		6B9A4B15213CFF3B00B3811C /* FONT */ = {
+			isa = PBXGroup;
+			children = (
+				6B9A4B16213D01F400B3811C /* Segoe_UI_Italic.ttf */,
+				6B9A4B18213D020300B3811C /* Segoe UI.ttf */,
+				6B9A4B1A213D021300B3811C /* seguibl.ttf */,
+				6B9A4B1C213D022300B3811C /* SEGOEUI.TTF */,
+				6B9A4B1E213D022E00B3811C /* seguisb.ttf */,
+			);
+			path = FONT;
+			sourceTree = "<group>";
+		};
+		6B9DC8FA21280C9700C77FED /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				6B9DC8FB21280CB000C77FED /* AnnoyingNotification.swift */,
+				6B9DC8FC21280CB000C77FED /* AnnoyingNotification.xib */,
+				6BAA62812135BCD600D872C1 /* PopUpWithTextFiled.swift */,
+				6BAA62832135BCE200D872C1 /* PopUpWithTextFiled.xib */,
+				6B93F5112140437800F6BFD9 /* MatchPreViewView.swift */,
+				6B93F5132140438300F6BFD9 /* MatchPreViewView.xib */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		6BA4D6682125D60A001B40E9 = {
+			isa = PBXGroup;
+			children = (
+				6BA4D6732125D60A001B40E9 /* GoSuper11 */,
+				6BA4D68B2125D60C001B40E9 /* GoSuper11Tests */,
+				6BA4D6962125D60C001B40E9 /* GoSuper11UITests */,
+				6BA4D6722125D60A001B40E9 /* Products */,
+				398B798D94EFCAA33E6BA03D /* Pods */,
+				B05EE4B1246719B3059B37D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6BA4D6722125D60A001B40E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BA4D6712125D60A001B40E9 /* Super11.app */,
+				6BA4D6882125D60C001B40E9 /* Super11Tests.xctest */,
+				6BA4D6932125D60C001B40E9 /* Super11UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BA4D6732125D60A001B40E9 /* GoSuper11 */ = {
+			isa = PBXGroup;
+			children = (
+				6BA4D6AB2125DD4F001B40E9 /* AppDelegate */,
+				6BA4D6AA2125DD3C001B40E9 /* Resources */,
+				6BA4D6A92125DD31001B40E9 /* Constant */,
+				6BA4D6A82125DCFA001B40E9 /* BusinessLayer */,
+				6BA4D6A72125DCD2001B40E9 /* WebAccessLayer */,
+				6BA4D6A62125DCB6001B40E9 /* PresentationLayer */,
+				6BA4D6A52125DC7E001B40E9 /* StoryBoard */,
+				6BA4D6762125D60A001B40E9 /* ViewController.swift */,
+				6BA4D67E2125D60B001B40E9 /* Assets.xcassets */,
+				6BA4D6802125D60B001B40E9 /* LaunchScreen.storyboard */,
+				6BA4D6832125D60B001B40E9 /* Info.plist */,
+				6B09620321293318002262C3 /* GoogleService-Info.plist */,
+				6BA4D67B2125D60A001B40E9 /* GoSuper11.xcdatamodeld */,
+			);
+			path = GoSuper11;
+			sourceTree = "<group>";
+		};
+		6BA4D68B2125D60C001B40E9 /* GoSuper11Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6BA4D68C2125D60C001B40E9 /* GoSuper11Tests.swift */,
+				6BA4D68E2125D60C001B40E9 /* Info.plist */,
+			);
+			path = GoSuper11Tests;
+			sourceTree = "<group>";
+		};
+		6BA4D6962125D60C001B40E9 /* GoSuper11UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6BA4D6972125D60C001B40E9 /* GoSuper11UITests.swift */,
+				6BA4D6992125D60C001B40E9 /* Info.plist */,
+			);
+			path = GoSuper11UITests;
+			sourceTree = "<group>";
+		};
+		6BA4D6A52125DC7E001B40E9 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				6BA4D6782125D60A001B40E9 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		6BA4D6A62125DCB6001B40E9 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				6BA4D6AF2125EAE7001B40E9 /* ViewControllers */,
+				6BA4D6AE2125EADB001B40E9 /* CollectionViewCell */,
+				6BA4D6AD2125EACA001B40E9 /* TableViewCell */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		6BA4D6A72125DCD2001B40E9 /* WebAccessLayer */ = {
+			isa = PBXGroup;
+			children = (
+				6B9DC90021282F5600C77FED /* APIManeger.swift */,
+				6B9DC8FF21282F5600C77FED /* WebResponseParser.swift */,
+			);
+			path = WebAccessLayer;
+			sourceTree = "<group>";
+		};
+		6BA4D6A82125DCFA001B40E9 /* BusinessLayer */ = {
+			isa = PBXGroup;
+			children = (
+				6BA4D6AC2125EAAD001B40E9 /* BusinessObject */,
+			);
+			path = BusinessLayer;
+			sourceTree = "<group>";
+		};
+		6BA4D6A92125DD31001B40E9 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				6B9DC8FA21280C9700C77FED /* CustomViews */,
+				6BA4D6B52125F886001B40E9 /* AppConstant.swift */,
+				6BA4D6B42125F886001B40E9 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		6BA4D6AA2125DD3C001B40E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B93F4E4214037BE00F6BFD9 /* Image */,
+				6B9A4B15213CFF3B00B3811C /* FONT */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6BA4D6AB2125DD4F001B40E9 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6BA4D6742125D60A001B40E9 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6BA4D6AC2125EAAD001B40E9 /* BusinessObject */ = {
+			isa = PBXGroup;
+			children = (
+				6B09620B21294361002262C3 /* PageDetailBO.swift */,
+				6B8DC2742137161300A565CC /* MatchListBO.swift */,
+				6BA2111A213AE96C00D86918 /* PlayerDetailBO.swift */,
+				6B9DF37D214D5EBB0003BCBE /* MyTeamListBO.swift */,
+			);
+			path = BusinessObject;
+			sourceTree = "<group>";
+		};
+		6BA4D6AD2125EACA001B40E9 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6BB594F6212C845700445341 /* MatchListTableViewCell.swift */,
+				6BA21118213ADC8B00D86918 /* PlayerDetailsTableViewCell.swift */,
+				6B0052E5213C021C009AE4FC /* ChooseCaptainTableViewCell.swift */,
+				6B88D8E62142FDDB00D44A84 /* JoinContestTableViewCell.swift */,
+				6B88D8E82142FDFA00D44A84 /* PlayWithFriendsTableViewCell.swift */,
+				6B94E36D214C2585001C34BD /* MyTeamListTableViewCell.swift */,
+				6B93DDC0214E6AAA0047FE1A /* WinnerBreakUpTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		6BA4D6AE2125EADB001B40E9 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6BAA627F2135B93300D872C1 /* MatchBannerCollectionViewCell.swift */,
+				6BEB545C213BD1D100EF72FE /* PlayerDetailCollectionViewCell.swift */,
+				6B93F5152140466400F6BFD9 /* SelectedPlayerCollectionViewCell.swift */,
+				6B93F5162140466400F6BFD9 /* SelectedPlayerCollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		6BA4D6AF2125EAE7001B40E9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6BA4D6B02125EB0C001B40E9 /* HomeViewController.swift */,
+				6BA4D6B22125EEDA001B40E9 /* LoginViewController.swift */,
+				6BB594F4212C819200445341 /* CricketMatchStatusViewController.swift */,
+				6BA8680F2138657B00609368 /* CreateTeamViewController.swift */,
+				6BEB545A213BC7DC00EF72FE /* TeamPreViewViewController.swift */,
+				6B0052E3213BFDF5009AE4FC /* ChooseCaptainViewController.swift */,
+				6B88D8E42142F6D500D44A84 /* JoinContestViewController.swift */,
+				6B9229BE21499377001C1860 /* MyTeamViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B05EE4B1246719B3059B37D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B0962092129340D002262C3 /* SystemConfiguration.framework */,
+				6B09620721293406002262C3 /* AddressBook.framework */,
+				6B096205212933F9002262C3 /* StoreKit.framework */,
+				E1985CCBFFAE67167D935640 /* Pods_GoSuper11.framework */,
+				278E877B70489901D53B8BFD /* Pods_GoSuper11Tests.framework */,
+				AD36786F5918370DAD9F3F3A /* Pods_GoSuper11UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BA4D6702125D60A001B40E9 /* Super11 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BA4D69C2125D60C001B40E9 /* Build configuration list for PBXNativeTarget "Super11" */;
+			buildPhases = (
+				11820C7C8F59AD9C7B03C3CF /* [CP] Check Pods Manifest.lock */,
+				6BA4D66D2125D60A001B40E9 /* Sources */,
+				6BA4D66E2125D60A001B40E9 /* Frameworks */,
+				6BA4D66F2125D60A001B40E9 /* Resources */,
+				DE29C82984362E5CC1CC1AF1 /* [CP] Embed Pods Frameworks */,
+				1BA8492951D604126BA62352 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Super11;
+			productName = GoSuper11;
+			productReference = 6BA4D6712125D60A001B40E9 /* Super11.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BA4D6872125D60C001B40E9 /* Super11Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BA4D69F2125D60C001B40E9 /* Build configuration list for PBXNativeTarget "Super11Tests" */;
+			buildPhases = (
+				FAD9A51863971CEDBC90F3DE /* [CP] Check Pods Manifest.lock */,
+				6BA4D6842125D60C001B40E9 /* Sources */,
+				6BA4D6852125D60C001B40E9 /* Frameworks */,
+				6BA4D6862125D60C001B40E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BA4D68A2125D60C001B40E9 /* PBXTargetDependency */,
+			);
+			name = Super11Tests;
+			productName = GoSuper11Tests;
+			productReference = 6BA4D6882125D60C001B40E9 /* Super11Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BA4D6922125D60C001B40E9 /* Super11UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BA4D6A22125D60C001B40E9 /* Build configuration list for PBXNativeTarget "Super11UITests" */;
+			buildPhases = (
+				B8B6FFC5896F574E6A0CBA1A /* [CP] Check Pods Manifest.lock */,
+				6BA4D68F2125D60C001B40E9 /* Sources */,
+				6BA4D6902125D60C001B40E9 /* Frameworks */,
+				6BA4D6912125D60C001B40E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BA4D6952125D60C001B40E9 /* PBXTargetDependency */,
+			);
+			name = Super11UITests;
+			productName = GoSuper11UITests;
+			productReference = 6BA4D6932125D60C001B40E9 /* Super11UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BA4D6692125D60A001B40E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Krishna;
+				TargetAttributes = {
+					6BA4D6702125D60A001B40E9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					6BA4D6872125D60C001B40E9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 6BA4D6702125D60A001B40E9;
+					};
+					6BA4D6922125D60C001B40E9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 6BA4D6702125D60A001B40E9;
+					};
+				};
+			};
+			buildConfigurationList = 6BA4D66C2125D60A001B40E9 /* Build configuration list for PBXProject "Super11" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BA4D6682125D60A001B40E9;
+			productRefGroup = 6BA4D6722125D60A001B40E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BA4D6702125D60A001B40E9 /* Super11 */,
+				6BA4D6872125D60C001B40E9 /* Super11Tests */,
+				6BA4D6922125D60C001B40E9 /* Super11UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BA4D66F2125D60A001B40E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B93F50C214037D500F6BFD9 /* ar1.PNG in Resources */,
+				6BA4D6822125D60B001B40E9 /* LaunchScreen.storyboard in Resources */,
+				6B93F52221406EF700F6BFD9 /* greenbar_new.png in Resources */,
+				6B93F508214037D500F6BFD9 /* bowl1.PNG in Resources */,
+				6B93F50A214037D500F6BFD9 /* IMG_7624.PNG in Resources */,
+				6B9A4B19213D020700B3811C /* Segoe UI.ttf in Resources */,
+				6B93F503214037D500F6BFD9 /* hourglass.PNG in Resources */,
+				6B93F520214065B000F6BFD9 /* greybar_new.png in Resources */,
+				6B93F51C21405CFC00F6BFD9 /* pitch.JPG in Resources */,
+				6B93F507214037D500F6BFD9 /* greenbar.PNG in Resources */,
+				6B93F500214037D500F6BFD9 /* bowl2.PNG in Resources */,
+				6B93F506214037D500F6BFD9 /* bat2.PNG in Resources */,
+				6B93F4FF214037D500F6BFD9 /* badge(1).PNG in Resources */,
+				6B93F50B214037D500F6BFD9 /* wk1.PNG in Resources */,
+				6B9A4B17213D01F600B3811C /* Segoe_UI_Italic.ttf in Resources */,
+				6B93F501214037D500F6BFD9 /* success.PNG in Resources */,
+				6B93F4FB214037D500F6BFD9 /* IMG_7435.PNG in Resources */,
+				6BA4D67F2125D60B001B40E9 /* Assets.xcassets in Resources */,
+				6B93F4FC214037D500F6BFD9 /* bowl.PNG in Resources */,
+				6B93F505214037D500F6BFD9 /* IMG_7625.JPG in Resources */,
+				6B93F50E214037D500F6BFD9 /* bat.PNG in Resources */,
+				6B93F51A2140560D00F6BFD9 /* close.png in Resources */,
+				6B93F509214037D500F6BFD9 /* IMG_7436.PNG in Resources */,
+				6B93F5142140438300F6BFD9 /* MatchPreViewView.xib in Resources */,
+				6B9A4B1B213D021500B3811C /* seguibl.ttf in Resources */,
+				6BAA62842135BCE200D872C1 /* PopUpWithTextFiled.xib in Resources */,
+				6B09620421293318002262C3 /* GoogleService-Info.plist in Resources */,
+				6B93F51021403A4F00F6BFD9 /* ar.PNG in Resources */,
+				6B93F4FD214037D500F6BFD9 /* wkt.PNG in Resources */,
+				6BA4D67A2125D60A001B40E9 /* Main.storyboard in Resources */,
+				6B93F50D214037D500F6BFD9 /* bat1.PNG in Resources */,
+				6B9A4B1D213D022500B3811C /* SEGOEUI.TTF in Resources */,
+				6B93F51E2140641600F6BFD9 /* upwards-arrow.png in Resources */,
+				6B9A4B1F213D023000B3811C /* seguisb.ttf in Resources */,
+				6B93F502214037D500F6BFD9 /* cricket-player.PNG in Resources */,
+				6B93F4FA214037D500F6BFD9 /* greybar.PNG in Resources */,
+				6B9DC8FE21280CB000C77FED /* AnnoyingNotification.xib in Resources */,
+				6B93F4FE214037D500F6BFD9 /* badge.PNG in Resources */,
+				6B93F5182140466400F6BFD9 /* SelectedPlayerCollectionViewCell.xib in Resources */,
+				6B93F504214037D500F6BFD9 /* ar2.PNG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA4D6862125D60C001B40E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA4D6912125D60C001B40E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11820C7C8F59AD9C7B03C3CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoSuper11-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BA8492951D604126BA62352 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoSuper11/Pods-GoSuper11-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoSuper11/Pods-GoSuper11-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8B6FFC5896F574E6A0CBA1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoSuper11UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE29C82984362E5CC1CC1AF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoSuper11/Pods-GoSuper11-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AnimatableReload/AnimatableReload.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FAPanels/FAPanels.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftOverlays/SwiftOverlays.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TKSubmitTransition/TKSubmitTransition.framework",
+				"${BUILT_PRODUCTS_DIR}/XMSegmentedControl/XMSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AnimatableReload.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FAPanels.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftOverlays.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TKSubmitTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoSuper11/Pods-GoSuper11-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAD9A51863971CEDBC90F3DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoSuper11Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BA4D66D2125D60A001B40E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9DC90221282F5700C77FED /* APIManeger.swift in Sources */,
+				6BA4D6772125D60A001B40E9 /* ViewController.swift in Sources */,
+				6B0052E6213C021C009AE4FC /* ChooseCaptainTableViewCell.swift in Sources */,
+				6B09620C21294361002262C3 /* PageDetailBO.swift in Sources */,
+				6BA4D67D2125D60A001B40E9 /* GoSuper11.xcdatamodeld in Sources */,
+				6B9DC90121282F5700C77FED /* WebResponseParser.swift in Sources */,
+				6BA4D6B72125F886001B40E9 /* AppConstant.swift in Sources */,
+				6BA21119213ADC8B00D86918 /* PlayerDetailsTableViewCell.swift in Sources */,
+				6BEB545D213BD1D100EF72FE /* PlayerDetailCollectionViewCell.swift in Sources */,
+				6B88D8E52142F6D500D44A84 /* JoinContestViewController.swift in Sources */,
+				6B8DC2752137161300A565CC /* MatchListBO.swift in Sources */,
+				6B88D8E72142FDDB00D44A84 /* JoinContestTableViewCell.swift in Sources */,
+				6B94E36E214C2585001C34BD /* MyTeamListTableViewCell.swift in Sources */,
+				6BAA62822135BCD600D872C1 /* PopUpWithTextFiled.swift in Sources */,
+				6BA868102138657B00609368 /* CreateTeamViewController.swift in Sources */,
+				6BB594F7212C845700445341 /* MatchListTableViewCell.swift in Sources */,
+				6B9DF37E214D5EBB0003BCBE /* MyTeamListBO.swift in Sources */,
+				6BB594F5212C819200445341 /* CricketMatchStatusViewController.swift in Sources */,
+				6BA4D6752125D60A001B40E9 /* AppDelegate.swift in Sources */,
+				6BA4D6B32125EEDA001B40E9 /* LoginViewController.swift in Sources */,
+				6BEB545B213BC7DC00EF72FE /* TeamPreViewViewController.swift in Sources */,
+				6B0052E4213BFDF5009AE4FC /* ChooseCaptainViewController.swift in Sources */,
+				6B93DDC1214E6AAA0047FE1A /* WinnerBreakUpTableViewCell.swift in Sources */,
+				6BA4D6B12125EB0C001B40E9 /* HomeViewController.swift in Sources */,
+				6B88D8E92142FDFA00D44A84 /* PlayWithFriendsTableViewCell.swift in Sources */,
+				6B93F5122140437800F6BFD9 /* MatchPreViewView.swift in Sources */,
+				6BA4D6B62125F886001B40E9 /* Constant.swift in Sources */,
+				6B9229BF21499377001C1860 /* MyTeamViewController.swift in Sources */,
+				6B93F5172140466400F6BFD9 /* SelectedPlayerCollectionViewCell.swift in Sources */,
+				6BAA62802135B93300D872C1 /* MatchBannerCollectionViewCell.swift in Sources */,
+				6BA2111B213AE96C00D86918 /* PlayerDetailBO.swift in Sources */,
+				6B9DC8FD21280CB000C77FED /* AnnoyingNotification.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA4D6842125D60C001B40E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA4D68D2125D60C001B40E9 /* GoSuper11Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA4D68F2125D60C001B40E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA4D6982125D60C001B40E9 /* GoSuper11UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BA4D68A2125D60C001B40E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BA4D6702125D60A001B40E9 /* Super11 */;
+			targetProxy = 6BA4D6892125D60C001B40E9 /* PBXContainerItemProxy */;
+		};
+		6BA4D6952125D60C001B40E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BA4D6702125D60A001B40E9 /* Super11 */;
+			targetProxy = 6BA4D6942125D60C001B40E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BA4D6782125D60A001B40E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BA4D6792125D60A001B40E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BA4D6802125D60B001B40E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BA4D6812125D60B001B40E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BA4D69A2125D60C001B40E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BA4D69B2125D60C001B40E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BA4D69D2125D60C001B40E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 211E74C222F11E8AA7505BB4 /* Pods-GoSuper11.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoSuper11/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tets-gmail.com.GoSuper11";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BA4D69E2125D60C001B40E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF834966455F2C7B74DFCDD2 /* Pods-GoSuper11.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoSuper11/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tets-gmail.com.GoSuper11";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6BA4D6A02125D60C001B40E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7786D2BFBB90CED67E2036AB /* Pods-GoSuper11Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoSuper11Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tets-gmail.com.GoSuper11Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Super11.app/Super11";
+			};
+			name = Debug;
+		};
+		6BA4D6A12125D60C001B40E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F44E607244AC3AD15B5B8292 /* Pods-GoSuper11Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoSuper11Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tets-gmail.com.GoSuper11Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Super11.app/Super11";
+			};
+			name = Release;
+		};
+		6BA4D6A32125D60C001B40E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F91D60E14C21F7D49992BDBD /* Pods-GoSuper11UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoSuper11UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tets-gmail.com.GoSuper11UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoSuper11;
+			};
+			name = Debug;
+		};
+		6BA4D6A42125D60C001B40E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA466B099083AC4AF5532D36 /* Pods-GoSuper11UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoSuper11UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tets-gmail.com.GoSuper11UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoSuper11;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BA4D66C2125D60A001B40E9 /* Build configuration list for PBXProject "Super11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BA4D69A2125D60C001B40E9 /* Debug */,
+				6BA4D69B2125D60C001B40E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BA4D69C2125D60C001B40E9 /* Build configuration list for PBXNativeTarget "Super11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BA4D69D2125D60C001B40E9 /* Debug */,
+				6BA4D69E2125D60C001B40E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BA4D69F2125D60C001B40E9 /* Build configuration list for PBXNativeTarget "Super11Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BA4D6A02125D60C001B40E9 /* Debug */,
+				6BA4D6A12125D60C001B40E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BA4D6A22125D60C001B40E9 /* Build configuration list for PBXNativeTarget "Super11UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BA4D6A32125D60C001B40E9 /* Debug */,
+				6BA4D6A42125D60C001B40E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6BA4D67B2125D60A001B40E9 /* GoSuper11.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6BA4D67C2125D60A001B40E9 /* GoSuper11.xcdatamodel */,
+			);
+			currentVersion = 6BA4D67C2125D60A001B40E9 /* GoSuper11.xcdatamodel */;
+			path = GoSuper11.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6BA4D6692125D60A001B40E9 /* Project object */;
+}

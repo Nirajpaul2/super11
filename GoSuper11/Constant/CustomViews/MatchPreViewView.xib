@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="seguisb.ttf">
+            <string>SegoeUI-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MatchPreViewView" customModule="GoSuper11" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="664" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pitch.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="Ms2-AC-Yb2">
+                    <rect key="frame" x="0.0" y="0.0" width="664" height="568"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5dv-QV-ijL">
+                    <rect key="frame" x="10" y="20" width="48" height="23"/>
+                    <fontDescription key="fontDescription" name="SegoeUI-Semibold" family="Segoe UI" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Qdc-Ga-7hx">
+                    <rect key="frame" x="0.0" y="43.5" width="664" height="502"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WICKET-KEEPER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xsa-Jb-Uyk">
+                            <rect key="frame" x="0.0" y="0.0" width="664" height="21.5"/>
+                            <fontDescription key="fontDescription" name="SegoeUI-Semibold" family="Segoe UI" pointSize="16"/>
+                            <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="aZX-VO-bWe">
+                            <rect key="frame" x="0.0" y="29.5" width="664" height="90"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="90" id="kNN-Rn-FhE"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="8hJ-hI-2h6">
+                                <size key="itemSize" width="366" height="88"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <cells/>
+                        </collectionView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="BATSMEN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EnN-Pm-364">
+                            <rect key="frame" x="0.0" y="127.5" width="664" height="21.5"/>
+                            <fontDescription key="fontDescription" name="SegoeUI-Semibold" family="Segoe UI" pointSize="16"/>
+                            <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="zSH-YL-rhL">
+                            <rect key="frame" x="0.0" y="157" width="664" height="90"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="90" id="C2V-2u-Rrf"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0rW-qB-ve1">
+                                <size key="itemSize" width="365" height="50"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <cells/>
+                        </collectionView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ALL-ROUNDERS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7kc-4K-5BR">
+                            <rect key="frame" x="0.0" y="255" width="664" height="21.5"/>
+                            <fontDescription key="fontDescription" name="SegoeUI-Semibold" family="Segoe UI" pointSize="16"/>
+                            <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Oht-dk-oMF">
+                            <rect key="frame" x="0.0" y="284.5" width="664" height="90"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="90" id="etN-qR-8gG"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="h5B-pv-Jwj">
+                                <size key="itemSize" width="366" height="70"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <cells/>
+                        </collectionView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BOWLERS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sni-CI-wwE">
+                            <rect key="frame" x="0.0" y="382.5" width="664" height="21.5"/>
+                            <fontDescription key="fontDescription" name="SegoeUI-Semibold" family="Segoe UI" pointSize="16"/>
+                            <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Ke7-tr-Usf">
+                            <rect key="frame" x="0.0" y="412" width="664" height="90"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="90" id="6BP-Ba-zJi"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Mb5-fh-wrJ">
+                                <size key="itemSize" width="372" height="50"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <cells/>
+                        </collectionView>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBL-4x-1vK">
+                    <rect key="frame" x="604" y="12" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="4Jj-OO-Hiu"/>
+                        <constraint firstAttribute="height" constant="40" id="UxS-bg-zdp"/>
+                    </constraints>
+                    <state key="normal" image="close.png"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="top" secondItem="mBL-4x-1vK" secondAttribute="top" constant="8" id="3Qj-tN-YtS"/>
+                <constraint firstItem="5dv-QV-ijL" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="7U8-wB-RDj"/>
+                <constraint firstItem="Ms2-AC-Yb2" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="9Lo-MO-LiY"/>
+                <constraint firstItem="Qdc-Ga-7hx" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="DLQ-lG-Vb0"/>
+                <constraint firstItem="Ms2-AC-Yb2" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="IKA-9V-qwX"/>
+                <constraint firstItem="Qdc-Ga-7hx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Ojr-Nz-zYM"/>
+                <constraint firstItem="5dv-QV-ijL" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="SEL-3L-rlU"/>
+                <constraint firstItem="Ms2-AC-Yb2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Voy-5k-wby"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Qdc-Ga-7hx" secondAttribute="trailing" id="Yj1-LP-scM"/>
+                <constraint firstItem="Qdc-Ga-7hx" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="dad-fF-wsp"/>
+                <constraint firstItem="Ms2-AC-Yb2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hPD-0D-66k"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="mBL-4x-1vK" secondAttribute="trailing" constant="20" id="iLl-RD-hdY"/>
+                <constraint firstItem="Qdc-Ga-7hx" firstAttribute="leading" secondItem="5dv-QV-ijL" secondAttribute="trailing" constant="-58" id="obX-Sm-1Th"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Ms2-AC-Yb2" secondAttribute="bottom" id="uhX-iq-oYG"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="btnClose" destination="mBL-4x-1vK" id="dDm-VR-Jzy"/>
+                <outlet property="collctionViewBL" destination="Ke7-tr-Usf" id="ogL-2y-V8Y"/>
+                <outlet property="collectionViewAL" destination="Oht-dk-oMF" id="NPJ-5s-UVY"/>
+                <outlet property="collectionViewBAT" destination="zSH-YL-rhL" id="SzN-es-xiU"/>
+                <outlet property="collectionViewWK" destination="aZX-VO-bWe" id="zoa-NX-ryH"/>
+                <outlet property="lblAL" destination="7kc-4K-5BR" id="szj-rM-m5U"/>
+                <outlet property="lblBAT" destination="EnN-Pm-364" id="4wn-28-SOd"/>
+                <outlet property="lblBOW" destination="Sni-CI-wwE" id="p5M-EC-GUt"/>
+                <outlet property="lblWK" destination="Xsa-Jb-Uyk" id="bFM-4m-Wfp"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="137"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="close.png" width="16" height="16"/>
+        <image name="pitch.JPG" width="600" height="857"/>
+    </resources>
+</document>
